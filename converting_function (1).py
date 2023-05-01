@@ -17,8 +17,9 @@ from Models.utils import mlflow_init_spark_exe
 from pycaret.regression import *
 
 metadata = {
+    #https://github.com/marufcse11/converting_function_2/blob/main/converting_function%20(1)
     #/Users/maruf/Documents/GitHub/exec-service-python/Models/NewFunctions/ModelTraining/Regression
-    'pythonModule': "Models.NewFunctions.ModelTraining.Regression.converting_function",
+    'pythonModule': "github.com.marufcse11.converting_function_2.blob.main.converting_function%20(1)",
     'spark': False,
     'inputs': {
         "target": {'type': 'string'},
